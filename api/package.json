@@ -1,7 +1,7 @@
 {
     "name": "api",
     "version": "1.0.0",
-    "main": "dist/functions/*.js",
+    "main": "dist/functions/tasks.js",
     "engines": {
         "node": ">=20.0.0"
     },
@@ -10,10 +10,10 @@
         "watch": "tsc -w"
     },
     "dependencies": {
-        "@azure/data-tables": "^13.2.2"
+        "@azure/data-tables": "^13.2.2",
+        "@azure/functions": "^4.5.0"
     },
     "devDependencies": {
-        "@azure/functions": "^4.5.0",
         "@types/node": "^20.0.0",
         "typescript": "^5.0.0"
     }
