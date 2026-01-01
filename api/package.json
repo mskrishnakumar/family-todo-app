@@ -1,0 +1,17 @@
+{
+    "name": "api",
+    "version": "1.0.0",
+    "main": "dist/functions/*.js",
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc -w"
+    },
+    "dependencies": {
+        "@azure/data-tables": "^13.2.2"
+    },
+    "devDependencies": {
+        "@azure/functions": "^4.5.0",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0"
+    }
+}
