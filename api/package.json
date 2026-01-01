@@ -1,7 +1,10 @@
 {
     "name": "api",
     "version": "1.0.0",
-    "main": "dist/functions/*.js",
+    "main": "dist/functions/tasks.js",
+    "engines": {
+        "node": ">=20.0.0"
+    },
     "scripts": {
         "build": "tsc",
         "watch": "tsc -w"
